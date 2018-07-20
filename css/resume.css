@@ -44,7 +44,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: rgb(20, 122, 0);
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +56,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: rgb(20, 122, 0);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -108,6 +108,7 @@ section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  background-color: #F0EAD6;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -131,17 +132,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: green !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: rgb(20, 122, 0) !important;
 }
 
 a {
-  color: #BD5D38;
+  color:  rgb(20, 122, 0);
 }
 
-a:hover, a:focus, a:active {
-  color: #824027;
-}
+/* a:hover, a:focus, a:active {
+  font-size: 20px;
+  font-family: 'Comic Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: lightskyblue;
+} */

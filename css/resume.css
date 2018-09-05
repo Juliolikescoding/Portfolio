@@ -21,6 +21,7 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
+
 }
 
 h1 {
@@ -109,6 +110,7 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   background-color: #F0EAD6;
+
 }
 
 section.resume-section .resume-item .resume-date {
@@ -141,10 +143,17 @@ section.resume-section .resume-item .resume-date {
 
 a {
   color:  rgb(20, 122, 0);
+  
+}
+.email:hover, .email:visited, .email:link, .email:active{
+color: rgb(20, 122, 0);
+text-decoration: none
+}
+.sideBar:hover{
+  font-size: 25px;
 }
 
-/* a:hover, a:focus, a:active {
-  font-size: 20px;
-  font-family: 'Comic Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: lightskyblue;
-} */
+h2:hover{
+ color: #008000;
+ cursor: default;
+}

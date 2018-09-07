@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #6d819c;
 }
 
 @media (min-width: 992px) {
@@ -45,7 +45,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: rgb(20, 122, 0);
+  color: #6d819c;
 }
 
 .list-social-icons a .fa-lg {
@@ -57,7 +57,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: rgb(20, 122, 0);
+  color: #6d819c;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -84,7 +84,8 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem groove rgba(255, 255, 255, 0.2);
+    border-radius: 30%;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -109,7 +110,7 @@ section.resume-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  background-color: #F0EAD6;
+  background-color: #e4e7ec;
 
 }
 
@@ -134,19 +135,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: green !important;
+  background-color: #263959 !important;
 }
 
 .text-primary {
-  color: rgb(20, 122, 0) !important;
+  color: #6d819c !important;
 }
 
 a {
-  color:  rgb(20, 122, 0);
+  color:  #6d819c;
   
 }
 .email:hover, .email:visited, .email:link, .email:active{
-color: rgb(20, 122, 0);
+color: #6d819c;
 text-decoration: none
 }
 .sideBar:hover{
@@ -154,11 +155,10 @@ text-decoration: none
 }
 
 h2:hover{
- color: #008000;
+ color: #263959;
  cursor: default;
 }
 
-
-#experience{
-
+#sidenav:active{
+color:yellow;
 }

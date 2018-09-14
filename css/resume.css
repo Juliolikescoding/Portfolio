@@ -148,7 +148,7 @@ a {
 }
 .email:hover, .email:visited, .email:link, .email:active{
 color: #6d819c;
-text-decoration: none
+
 }
 .sideBar:hover{
   font-size: 25px;
@@ -159,3 +159,47 @@ h2:hover{
  cursor: default;
 }
 
+/* .previews{
+  width: 100px;
+  height: 100px;
+  border: 4px solid black;
+  border-radius: 25%;
+  text-align: center;
+}
+
+.preview_image{
+  border-radius: 25%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+
+  
+}
+
+.preview_image:hover{
+  width: 500px;
+  height: 500px;
+  border-radius: 25%; 
+
+border:4px double yellow;
+
+}
+
+.previews:hover{
+
+  width: 500px;
+  height: 500px;
+  border-radius: 25%; 
+ border:4px double rgb(0, 79, 224);
+ animation: popup 1s lineear infinite;
+
+}
+
+@keyframes popup{
+  from{
+    background: url('https://ih0.redbubble.net/image.376655820.3331/ap,550x550,12x12,1,transparent,t.u1.png');
+  }
+  to{
+    background-color: purple;
+  }
+} */

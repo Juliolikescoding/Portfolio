@@ -159,3 +159,11 @@ h2:hover{
  cursor: default;
 }
 
+.preview_image:hover{
+background: url('http://prntscr.com/kvzdhy');
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+width: 60vw;
+}
